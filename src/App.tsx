@@ -20,7 +20,7 @@ function App() {
   const getLinkClass = ({isActive}: any) => isActive ? "font-bold" : "";
 
   return (
-    <Router>
+    <Router basename='/homework_38'>
       <nav className='nav-menu'>
         <ul className='menu'>
           <li><NavLink className={getLinkClass} to="/">Home</NavLink></li>
